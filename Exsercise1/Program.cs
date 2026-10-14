@@ -20,7 +20,7 @@ namespace Exsercise1
             Console.WriteLine("Enter Rate");
             Rate = Convert.ToDouble(Console.ReadLine());
             Amount = Qty * Rate;
-
+            Console.WriteLine("================");
             Console.WriteLine("Amount=" + Amount);
 
         }
